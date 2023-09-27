@@ -12,6 +12,9 @@ router.get("/detailplaylist", ZingController.getDetailPlaylist);
 //getHome
 router.get("/home", ZingController.getHome);
 
+//search
+router.get("/search", ZingController.search);
+
 //getTop100
 router.get("/top100", ZingController.getTop100);
 

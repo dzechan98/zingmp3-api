@@ -36,4 +36,6 @@ router.get("/lyric", ZingController.getLyric);
 //getVideo
 router.get("/video", ZingController.getVideo);
 
+router.get("/listartistsong", ZingController.getListArtistSong);
+
 module.exports = router;
